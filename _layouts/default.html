@@ -3,13 +3,15 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }} - Kevin Chan</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+        <title>{{ page.title }} - {{ site.name }}</title>
 
         <link rel="stylesheet" href="/css/style.css">
-        <link rel="stylesheet" href="/css/pygment_trac.css">
-        <link rel="stylesheet" href="/css/syntax.css">
         <link rel="stylesheet" href="/css/font-awesome.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+        <!-- <link rel="stylesheet" href="/css/pygment_trac.css"> -->
+        <!-- <link rel="stylesheet" href="/css/syntax.css"> -->
 
         <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -20,10 +22,14 @@
         <div class="wrapper">
             <header>
                 <h1><a href="/">{{ site.name }}</a></h1>
-                <a href="/">Home</a> |
-                <a href="/about">About</a> |
-                <a href="/projects">Projects</a> |
-                <a href="/contact">Contact</a>
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </nav>
             </header>
 
             <section>

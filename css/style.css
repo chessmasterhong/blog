@@ -52,13 +52,13 @@ h1 {
 }
 
 h2, h2 a {
-    color: #3498db !important;
+    color: #3498DB !important;
     font-size: 26px;
 }
 
 h2 a:hover {
-    color: #333333 !important;
-    text-decoration: underline;
+  color: #333333 !important;
+  text-decoration: underline;
 }
 
 h3, h4, h5, h6, h3 a, h4 a, h5 a, h6 a {
@@ -69,7 +69,7 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-    color: #444444 !important;
+    color: #444 !important;
     text-decoration: underline;
 }
 
@@ -121,40 +121,9 @@ hr {
 
 blockquote {
     border-left: 1px solid #e5e5e5;
-    font-style: italic;
     margin: 0;
     padding: 0 0 0 20px;
-}
-
-#table_of_contents {
-    margin-bottom: 0;
-}
-
-.maruku_toc {
-    *zoom: 1;
-    font-size: 0.9em;
-}
-
-.maruku_toc:before,
-.maruku_toc:after {
-    content: " ";
-    display: table;
-}
-
-.maruku_toc:after {
-    clear: both;
-}
-
-.maruku_toc > ul {
-    background: #f8f8f8;
-    border-radius: 5px;
-    border: 1px solid #e5e5e5;
-    float: left;
-    padding: 0.5em 1em 0.5em 2em;
-}
-
-.maruku_toc li > ul {
-    margin-bottom: 0;
+    font-style: italic;
 }
 
 code, pre {
@@ -163,7 +132,6 @@ code, pre {
     border: 1px solid #e5e5e5;
     color: #333333;
     font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
-    /* font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace; */
     font-size: 13px;
     padding: 2px 4px;
 }
@@ -174,11 +142,8 @@ pre {
 }
 
 pre > code {
-    /* background: transparent; */
-    background: #f8f8f8;
-    /* border: none; */
-    border-radius: 5px;
-    border: 1px solid #e5e5e5;
+    background: transparent;
+    border: none;
     padding: 0;
 }
 
@@ -217,80 +182,6 @@ header {
 
 header h1 {
     margin-bottom: 12px;
-}
-
-header ul {
-    background: #eeeeee;
-    background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-    background: -ms-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-    background: -o-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #dddddd));
-    background: -webkit-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-    background: linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-    border-radius:5px;
-    border: 1px solid #d2d2d2;
-    box-shadow: inset #ffffff 0 1px 0, inset rgba(0, 0, 0, 0.03) 0 -1px 0;
-    height: 40px;
-    list-style: none;
-    padding: 0;
-    width: 270px;
-}
-
-header ul a {
-  color: #999999;
-  display: block;
-  font-size: 11px;
-  height: 34px;
-  line-height: 1;
-  padding-top: 6px;
-  text-align: center;
-}
-
-header ul a:hover {
-  background: -moz-linear-gradient(top, #ffffff 0%, #dddddd 100%);
-  background: -ms-linear-gradient(top, #ffffff 0%, #dddddd 100%);
-  background: -o-linear-gradient(top, #ffffff 0%, #dddddd 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #dddddd));
-  background: -webkit-linear-gradient(top, #ffffff 0%, #dddddd 100%);
-  background: linear-gradient(top, #ffffff 0%, #dddddd 100%);
-  color: #999999;
-}
-
-header ul a:active {
-    box-shadow: inset 0px 2px 2px 0px #dddddd;
-    -moz-box-shadow: inset 0px 2px 2px 0px #dddddd;
-    -webkit-box-shadow: inset 0px 2px 2px 0px #dddddd;
-}
-
-header ul a strong {
-    color: #222222;
-    display: block;
-    font-size: 14px;
-}
-
-header li {
-    border-right: 1px solid #d2d2d2;
-    float: left;
-    height: 40px;
-    width: 89px;
-}
-
-header li:first-child a {
-    border-radius: 5px 0 0 5px;
-}
-
-header li:last-child a {
-    border-radius: 0 5px 5px 0;
-}
-
-header ul li + li {
-    border-left:1px solid #ffffff;
-    width:88px;
-}
-
-header ul li + li + li {
-    border-right:none;
-    width:89px;
 }
 
 
@@ -378,13 +269,13 @@ nav li a.active:hover {
 }
 
 .pagination li {
-    border-right: 1px solid #e5e5e5;
     float: left;
     height: 24px;
+    border-right: 1px solid #e5e5e5;
 }
 
 .pagination li:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 .pagination li a {
@@ -487,7 +378,6 @@ a.post-banner:hover {
     margin-bottom: 2em;
 }
 
-
 /* Footer / Sidebar */
 
 footer {
@@ -501,16 +391,16 @@ footer {
 
 img.avatar {
     border-radius: 40px;
-    -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
     height: 72px;
     width: 72px;
 }
 
 img.profile {
     border-radius: 5px;
-    -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     height: 100px;
     width: 100px;
 }
@@ -530,11 +420,9 @@ img.pull-left {
 
 /* Responsive Adjustments */
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1050px) {
     div.wrapper {
-        margin: 0;
-        width: auto;
-        /* width: 600px; */
+        width: 600px;
     }
 
     header, section, footer {
@@ -553,8 +441,8 @@ img.pull-left {
     }
 
     section {
-        border-width: 1px 0;
-        border: 1px solid #eeeeee;
+        border-bottom: 1px solid #eeeeee;
+        border-top: 1px solid #eeeeee;
         margin: 0 0 20px;
         padding: 20px 0;
     }
@@ -565,8 +453,8 @@ img.pull-left {
 
     header ul {
         position: absolute;
-        right: 50px;
-        top: 52px;
+        right: 0;
+        top: 5px;
     }
 
     footer {
@@ -576,7 +464,7 @@ img.pull-left {
     }
 }
 
-@media print, screen and (max-width: 720px) {
+@media print, screen and (max-width: 700px) {
     body {
         padding-top: 15px;
         word-wrap: break-word;
@@ -589,7 +477,6 @@ img.pull-left {
 
     header {
         padding: 0 0 15px;
-        text-align: center;
     }
 
     nav ul {
@@ -597,8 +484,12 @@ img.pull-left {
         position: static;
     }
 
-    header ul, header p.view {
+    header p.view {
         position: static;
+    }
+
+    header {
+        text-align: center;
     }
 
     pre, pre > code {
@@ -611,10 +502,6 @@ img.pull-left {
         padding: 15px;
     }
 
-    header ul {
-        display: none;
-    }
-
     .post-meta {
         font-size: 15px;
     }
@@ -622,51 +509,8 @@ img.pull-left {
 
 @media print {
     body {
-        color: #444444;
-        font-size: 12pt;
         padding: 0.4in;
+        font-size: 12pt;
+        color: #444444;
     }
-}
-
-
-/* Home Page Styling */
-
-div.wrapper.home {
-    margin: 0;
-    width: auto;
-}
-
-div.home header,
-div.home section,
-div.home footer {
-    float: none;
-    margin: 0 auto;
-    max-width: 400px;
-    position: static;
-    text-align: center;
-    width: auto;
-}
-
-div.home header {
-    background: none;
-    border: none;
-    margin-bottom: 2em;
-    min-height: 0;
-    padding: 0;
-    text-align: center;
-}
-
-div.home header ul {
-    margin: 0 auto;
-    position: static;
-}
-
-div.home section {
-    border: none;
-    min-height: 0;
-    padding: 0;
-}
-
-div.home footer {
-    max-width: 300px;
 }
