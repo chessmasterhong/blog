@@ -16,11 +16,13 @@ body {
     margin: 0 auto;
     width: 950px;
 }
+
 .wrapper:before,
 .wrapper:after {
     content: " ";
     display: table;
 }
+
 .wrapper:after {
     clear: both;
 }
@@ -53,6 +55,7 @@ h2, h2 a {
     color: #3498DB !important;
     font-size: 26px;
 }
+
 h2 a:hover {
     color: #333333 !important;
     text-decoration: underline;
@@ -61,6 +64,7 @@ h2 a:hover {
 h3, h4, h5, h6, h3 a, h4 a, h5 a, h6 a {
     color: #444444 !important;
 }
+
 h3 a:hover,
 h4 a:hover,
 h5 a:hover,
@@ -125,15 +129,18 @@ blockquote {
 #table_of_contents {
     margin-bottom: 0;
 }
+
 .maruku_toc {
     *zoom: 1;
     font-size: 0.9em;
 }
+
 .maruku_toc:before,
 .maruku_toc:after {
     content: " ";
     display: table;
 }
+
 .maruku_toc:after {
     clear: both;
 }
@@ -156,6 +163,7 @@ code, pre {
     border: 1px solid #e5e5e5;
     color: #333333;
     font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+    /* font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace; */
     font-size: 13px;
     padding: 2px 4px;
 }
@@ -164,9 +172,13 @@ pre {
     overflow-x: auto;
     padding: 8px 15px;
 }
+
 pre > code {
-    background: transparent;
-    border: none;
+    /* background: transparent; */
+    background: #f8f8f8;
+    /* border: none; */
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
     padding: 0;
 }
 
@@ -205,6 +217,80 @@ header {
 
 header h1 {
     margin-bottom: 12px;
+}
+
+header ul {
+    background: #eeeeee;
+    background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
+    background: -ms-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
+    background: -o-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #dddddd));
+    background: -webkit-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
+    background: linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
+    border-radius:5px;
+    border: 1px solid #d2d2d2;
+    box-shadow: inset #ffffff 0 1px 0, inset rgba(0, 0, 0, 0.03) 0 -1px 0;
+    height: 40px;
+    list-style: none;
+    padding: 0;
+    width: 270px;
+}
+
+header ul a {
+  color: #999999;
+  display: block;
+  font-size: 11px;
+  height: 34px;
+  line-height: 1;
+  padding-top: 6px;
+  text-align: center;
+}
+
+header ul a:hover {
+  background: -moz-linear-gradient(top, #fff 0%, #ddd 100%);
+  background: -ms-linear-gradient(top, #fff 0%,#ddd 100%);
+  background: -o-linear-gradient(top, #fff 0%,#ddd 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#ddd));
+  background: -webkit-linear-gradient(top, #fff 0%,#ddd 100%);
+  background: linear-gradient(top, #fff 0%,#ddd 100%);
+  color: #999999;
+}
+
+header ul a:active {
+    box-shadow: inset 0px 2px 2px 0px #ddd;
+    -moz-box-shadow: inset 0px 2px 2px 0px #ddd;
+    -webkit-box-shadow: inset 0px 2px 2px 0px #ddd;
+}
+
+header ul a strong {
+    color: #22222;
+    display: block;
+    font-size: 14px;
+}
+
+header li {
+    border-right: 1px solid #d2d2d2;
+    float: left;
+    height: 40px;
+    width: 89px;
+}
+
+header li:first-child a {
+    border-radius: 5px 0 0 5px;
+}
+
+header li:last-child a {
+    border-radius: 0 5px 5px 0;
+}
+
+header ul li + li {
+    border-left:1px solid #fff;
+    width:88px;
+}
+
+header ul li + li + li {
+    border-right:none;
+    width:89px;
 }
 
 
@@ -269,14 +355,17 @@ nav li a.active:hover {
 .pagination {
     *zoom: 1;
 }
+
 .pagination:before,
 .pagination:after {
     content: " ";
     display: table;
 }
+
 .pagination:after {
     clear: both;
 }
+
 .pagination ul {
     background: #fff;
     border-radius: 5px;
@@ -345,12 +434,14 @@ nav li a.active:hover {
 .post-title {
     margin-bottom: 0;
 }
+
 .post-meta,
 .post-meta a {
     color: #aaa;
     margin-bottom: 0;
     white-space: nowrap;
-},
+}
+
 .post-meta a:hover,
 .post-meta a:active {
     text-decoration: underline;
@@ -368,10 +459,12 @@ nav li a.active:hover {
     overflow: hidden;
     width: 100%;
 }
+
 .post-banner.no-image,
 .post-banner.no-image:hover {
     background-size: 100% 100% !important;
 }
+
 .post-banner > img {
     display: block;
     height: 0;
@@ -381,9 +474,11 @@ nav li a.active:hover {
     visibility: hidden;
     width: 100%;
 }
+
 a.post-banner {
     -webkit-transition: all .2s ease-in-out;
 }
+
 a.post-banner:hover {
     background-size: auto 104%;
 }
@@ -435,17 +530,19 @@ img.pull-left {
 
 /* Responsive Adjustments */
 
-@media print, screen and (max-width: 1050px) {
+@media print, screen and (max-width: 960px) {
     div.wrapper {
-        width: 600px;
+        margin: 0;
+        width: auto;
+        /* width: 600px; */
     }
-  
+
     header, section, footer {
         float: none;
         position: static;
         width: auto;
     }
-  
+
     header {
         background: none;
         border: none;
@@ -454,71 +551,74 @@ img.pull-left {
         padding: 0 320px 10px 0;
         position: relative;
     }
-  
+
     section {
         border-width: 1px 0;
         border: 1px solid #eee;
         margin: 0 0 20px;
         padding: 20px 0;
     }
-  
+
     header a small {
         display: inline;
     }
-  
+
     header ul {
         position: absolute;
-        right: 0;
-        top: 5px;
+        right: 50px;
+        top: 52px;
     }
-  
+
     footer {
         margin: 0 auto;
         max-width: 400px;
         text-align: center;
     }
+
 }
 
-@media print, screen and (max-width: 700px) {
+@media print, screen and (max-width: 720px) {
     body {
         padding-top: 15px;
         word-wrap: break-word;
     }
-  
+
     div.wrapper {
         margin: 0;
         width: auto;
     }
-  
+
     header {
         padding: 0 0 15px;
+        text-align: center;
     }
-  
+
     nav ul {
         margin: 0 auto;
         position: static;
     }
-  
-    header p.view {
+
+    header ul, header p.view {
         position: static;
     }
-  
-    header {
-        text-align: center;
-    }
-  
+
     pre, pre > code {
         word-wrap: normal;
     }
+
 }
 
 @media print, screen and (max-width: 480px) {
     body {
         padding: 15px;
     }
+    header ul {
+        display: none;
+    }
     .post-meta {
         font-size: 15px;
     }
+
 }
 
 @media print {
@@ -527,6 +627,7 @@ img.pull-left {
         font-size: 12pt;
         padding: 0.4in;
     }
+
 }
 
 
