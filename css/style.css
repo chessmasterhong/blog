@@ -502,4 +502,8 @@ img.pull-left {
         font-size: 12pt;
         color: #444444;
     }
+
+    header ul {
+        display: none;
+    }
 }
