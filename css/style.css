@@ -1,10 +1,15 @@
+---
+font_color0: "#333333"
+border_color0: "#e5e5e5"
+---
+
 @import url(http://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 
 /* Scaffolding */
 
 body {
-    color: #333333;
+    color: {{ page.font_color0 }};
     font-weight: 300;
     font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
@@ -52,12 +57,12 @@ h1 {
 }
 
 h2, h2 a {
-    color: #3498DB !important;
+    /* color: #3498DB !important; */
     font-size: 26px;
 }
 
 h2 a:hover {
-  color: #333333 !important;
+  /* color: #333333 !important; */
   text-decoration: underline;
 }
 
@@ -69,7 +74,7 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-    color: #444 !important;
+    /* color: #44444 !important; */
     text-decoration: underline;
 }
 
@@ -113,14 +118,14 @@ small {
 }
 
 hr {
-    background: #e5e5e5;
+    background: {{ page.border_color0 }};
     border: 0;
     height: 1px;
     margin: 0 0 20px;
 }
 
 blockquote {
-    border-left: 1px solid #e5e5e5;
+    border-left: 1px solid {{ page.border_color0 }};
     margin: 0;
     padding: 0 0 0 20px;
     font-style: italic;
@@ -129,8 +134,8 @@ blockquote {
 code, pre {
     background: #f8f8f8;
     border-radius: 5px;
-    border: 1px solid #e5e5e5;
-    color: #333333;
+    border: 1px solid {{ page.border_color0 }};
+    color: {{ page.font_color0 }};
     font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
     font-size: 13px;
     padding: 2px 4px;
@@ -153,7 +158,7 @@ table {
 }
 
 th, td {
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid {{ page.border_color0 }};
     padding: 5px 10px;
     text-align: left;
 }
@@ -171,7 +176,7 @@ th {
 /* Header / Sidebar Top */
 
 header {
-    border-right: 1px solid #eeeeee;
+    border-right: 1px solid {{ page.border_color0 }};
     float: left;
     min-height: 100%;
     padding-right: 30px;
@@ -189,7 +194,7 @@ header h1 {
 nav ul {
     background: #ffffff;
     border-radius: 5px;
-    border: 1px solid #e5e5e5;
+    border: 1px solid {{ page.border_color0 }};
     height: 24px;
     list-style: none;
     padding: 0;
@@ -197,7 +202,7 @@ nav ul {
 }
 
 nav li {
-    border-right: 1px solid #e5e5e5;
+    border-right: 1px solid {{ page.border_color0 }};
     float: left;
     height: 24px;
     width: 67px;
@@ -259,7 +264,7 @@ nav li a.active:hover {
 .pagination ul {
     background: #ffffff;
     border-radius: 5px;
-    border: 1px solid #e5e5e5;
+    border: 1px solid {{ page.border_color0 }};
     display: inline-block;
     float: right;
     height: 24px;
@@ -270,7 +275,7 @@ nav li a.active:hover {
 .pagination li {
     float: left;
     height: 24px;
-    border-right: 1px solid #e5e5e5;
+    border-right: 1px solid {{ page.border_color0 }};
 }
 
 .pagination li:last-child {
@@ -388,6 +393,10 @@ footer {
     width: 275px;
 }
 
+footer p.sub {
+    font-size: 12px;
+}
+
 img.avatar {
     border-radius: 40px;
     -webkit-border-radius: 40px;
@@ -436,8 +445,8 @@ img.pull-left {
     }
 
     section {
-        border-bottom: 1px solid #eeeeee;
-        border-top: 1px solid #eeeeee;
+        border-bottom: 1px solid {{ page.border_color0 }};
+        border-top: 1px solid {{ page.border_color0 }};
         margin: 0 0 20px;
         padding: 20px 0;
     }
