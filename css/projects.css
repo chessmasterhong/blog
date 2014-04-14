@@ -22,11 +22,16 @@
 }
 
 .projects .views-row .proj_container .proj_title {
-    margin: 10px 0 -10px;
+    margin: 10px 0;
 }
 
 .projects .views-row .proj_container .proj_desc {
     font-size: 13px;
     line-height: 1.2;
     text-align: justify;
+}
+
+.projects .views-row .proj_container .proj_title h2,
+.projects .views-row .proj_container .proj_desc p {
+    margin: 10px 0;
 }
