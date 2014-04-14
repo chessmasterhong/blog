@@ -195,40 +195,25 @@ nav ul {
     background: #ffffff;
     border-radius: 5px;
     border: 1px solid {{ page.border_color0 }};
-    height: 24px;
     list-style: none;
     padding: 0;
-    width: 272px;
 }
 
 nav li {
-    border-right: 1px solid {{ page.border_color0 }};
-    float: left;
+    border-bottom: 1px solid {{ page.border_color0 }};
     height: 24px;
-    width: 67px;
 }
 
 nav li:last-child {
-    border-right: none;
-    width: 68px;
+    border-bottom: none;
 }
 
 nav li a {
     color: #999999;
     display: block;
-    font-size: 11px;
     font-size: 13px;
-    height: 24px;
     line-height: 24px;
     text-align: center;
-}
-
-nav li:first-child a {
-    border-radius: 5px 0 0 5px;
-}
-
-nav li:last-child a {
-    border-radius: 0 5px 5px 0;
 }
 
 nav li a:hover,
@@ -452,7 +437,20 @@ img.pull-left {
     }
 
     nav ul {
+        height: 24px;
         top: 70px;
+        width: 272px;
+    }
+
+    nav li {
+        border-right: 1px solid {{ page.border_color0 }};
+        float: left;
+        width: 67px;
+    }
+
+    nav li:last-child {
+        border-right: none;
+        width: 68px;
     }
 
     section {
