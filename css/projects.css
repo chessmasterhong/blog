@@ -5,19 +5,19 @@
 }
 
 .projects .proj_container {
-    height: 240px;
+    height: auto;
     width: 100%;
 }
 
 .projects .views-row-odd .proj_container img {
     float: right;
-    height: 100%;
+    height: 240px;
     margin-left: 20px;
 }
 
 .projects .views-row-even .proj_container img {
     float: left;
-    height: 100%;
+    height: 240px;
     margin-right: 20px;
 }
 
@@ -35,3 +35,32 @@
 .projects .views-row .proj_container .proj_desc p {
     margin: 10px 0;
 }
+
+/* Responsive Adjustments */
+
+/* @media print, screen and (max-width: 960px) {} */
+
+@media print, screen and (max-width: 720px) {
+    .projects .views-row-even .proj_container img,
+    .projects .views-row-odd .proj_container img {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .projects .views-row .proj_container .proj_title,
+    .projects .views-row .proj_container .proj_desc {
+        clear: both;
+        width: 100%
+    }
+
+    .projects .views-row .proj_container .proj_title h2 {
+        margin: 0;
+        padding-top: 10px;
+    }
+}
+
+/* @media print, screen and (max-width: 480px) {} */
+
+/* @media print {} */
