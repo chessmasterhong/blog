@@ -17,7 +17,6 @@ body {
 }
 
 .wrapper {
-    *zoom: 1;
     margin: 0 auto;
     width: 1020px;
 }
@@ -178,6 +177,7 @@ th {
 header {
     border-right: 1px solid {{ page.border_color0 }};
     float: left;
+    margin-top: -50px;
     min-height: 100%;
     padding-right: 30px;
     position: fixed;
@@ -185,7 +185,7 @@ header {
 }
 
 header h1 {
-    margin-bottom: 12px;
+    margin: 50px 0 12px;
 }
 
 
@@ -246,10 +246,6 @@ nav li a.active:hover {
 
 
 /* Pagination */
-
-.pagination {
-    *zoom: 1;
-}
 
 .pagination:before,
 .pagination:after {
