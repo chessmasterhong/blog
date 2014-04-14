@@ -1,0 +1,32 @@
+.projects .views-row {
+    clear: both;
+    width: 100%;
+    margin: 0;
+}
+
+.projects .proj_container {
+    height: 240px;
+    width: 100%;
+}
+
+.projects .views-row-odd .proj_container img {
+    float: right;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.projects .views-row-even .proj_container img {
+    float: left;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.projects .views-row .proj_container .proj_title {
+    margin: 10px 0 -10px;
+}
+
+.projects .views-row .proj_container .proj_desc {
+    font-size: 13px;
+    line-height: 1.2;
+    text-align: justify;
+}

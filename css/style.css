@@ -14,7 +14,7 @@ body {
 .wrapper {
     *zoom: 1;
     margin: 0 auto;
-    width: 950px;
+    width: 1020px;
 }
 
 .wrapper:before,
@@ -105,7 +105,7 @@ section {
     min-height: 400px;
     overflow: hidden;
     padding-bottom: 50px;
-    width: 600px;
+    width: 680px;
 }
 
 small {
