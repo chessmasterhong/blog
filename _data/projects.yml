@@ -1,18 +1,36 @@
 - title: "MathFlash"
+  link_demo: ""
+  link_details: "mathflash"
+  image: ""
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero augue, adipiscing at elementum vel, blandit porta risus. Suspendisse metus enim, feugiat eu aliquam vitae, condimentum sed enim. Duis aliquam dolor ac urna malesuada scelerisque. Fusce volutpat, ante vel bibendum varius, quam tellus pellentesque urna, ut lobortis nunc turpis sit amet libero. Nunc aliquam tristique ultricies. Vestibulum vitae rutrum leo, ac viverra eros. Duis laoreet consequat eros. Quisque congue quam a tellus viverra ullamcorper. Sed venenatis massa et ligula interdum, condimentum feugiat lorem gravida. Fusce in nulla imperdiet, pharetra augue vel, hendrerit turpis. Mauris id elementum leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
 
 - title: "Fire Emblem: Chronicles of the Abyss"
+  link_demo: ""
+  link_details: "fire_emblem_chronicles_of_the_abyss"
+  image: ""
   description: "Suspendisse id volutpat diam, ullamcorper viverra elit. Praesent et orci id urna luctus dignissim sit amet sit amet elit. Maecenas hendrerit turpis nibh, eget convallis quam lacinia eget. Integer ultrices tortor at nisi adipiscing porta. Pellentesque nec tempus dui. Integer volutpat viverra varius. Sed laoreet mi magna, sit amet tempor nisl imperdiet non. Donec tincidunt pulvinar arcu in tincidunt. Nulla vel tempus turpis, sit amet dignissim massa. Vivamus sodales urna velit, ut sollicitudin magna hendrerit at. Donec porta justo turpis, sit amet gravida felis semper sit amet. Etiam mattis faucibus nulla eget lacinia. Sed faucibus aliquet porttitor."
 
 - title: "Super Mario World: Koopa Krisis"
+  link_demo: ""
+  link_details: "super_mario_world_koopa_krisis"
+  image: ""
   description: "Aenean nec justo vel tellus venenatis imperdiet id sit amet risus. Praesent at ultrices elit. Curabitur vel mauris blandit, vestibulum enim eu, volutpat est. Integer vitae aliquet ipsum. Duis vel iaculis felis. Sed lacinia vehicula bibendum. Nam vel sagittis nulla. Morbi eu lectus vel lacus sodales accumsan. Nam tempus in libero et elementum. Nunc purus tellus, condimentum elementum massa nec, aliquet aliquam mauris. Aliquam sagittis metus at mollis imperdiet. Nunc sit amet magna vitae tellus dapibus tempus nec et neque. Praesent eleifend diam sagittis, cursus leo et, faucibus arcu."
 
-- title: "ImpactJS Enemy Editor"
-  description: "Duis consequat non magna quis scelerisque. Curabitur non hendrerit massa, eget ornare lectus. Phasellus pulvinar mattis facilisis. Pellentesque vel mi eget justo convallis suscipit ac sit amet enim. Phasellus bibendum lacinia dolor elementum sagittis. Proin vulputate, quam vitae tincidunt volutpat, libero turpis tempus quam, vitae laoreet erat leo at lectus. Mauris sit amet orci iaculis, lobortis diam quis, consequat nisi. Etiam fringilla orci id egestas ultrices. Pellentesque tristique faucibus eros, nec varius ante bibendum ut."
-
 - title: "ParallelText"
+  link_demo: ""
+  link_details: "paralleltext"
+  image: ""
   description: "Maecenas vestibulum rhoncus hendrerit. Morbi venenatis magna scelerisque turpis hendrerit, quis adipiscing odio interdum. Nam non arcu eu ante blandit porta eget quis quam. In luctus diam in justo pretium, non convallis sem malesuada. Duis nisi lorem, bibendum non ipsum ac, feugiat venenatis libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque est mi, condimentum et enim at, porttitor porttitor nibh. Mauris semper luctus urna, et imperdiet dui consectetur et. Curabitur adipiscing vulputate magna a congue. Cras at mauris dignissim, gravida justo quis, ornare quam. Donec sit amet tristique mi. Nulla egestas pellentesque mi non porta. Sed nec venenatis elit. Morbi consequat auctor augue, id aliquam nulla lacinia eget."
 
 - title: "DocShare"
+  link_demo: ""
+  link_details: "docshare"
+  image: ""
   description: "Phasellus vestibulum est nec augue fermentum, non egestas est dignissim. Nullam augue nisl, scelerisque in metus elementum, elementum posuere sapien. Duis blandit ante et condimentum sollicitudin. Nam sed condimentum arcu. Phasellus dignissim arcu risus, quis tristique urna viverra at. Donec posuere dui ut orci volutpat, sit amet tempus mi ultricies. Vestibulum mollis erat in tristique vehicula. Integer dictum felis risus, eu tempor dui molestie vitae. Cras velit tortor, gravida vel justo nec, dapibus condimentum diam. Mauris eu iaculis nisi."
+
+- title: "ImpactJS Enemy Editor"
+  link_demo: ""
+  link_details: "impactjs_enemy_editor"
+  image: ""
+  description: "Duis consequat non magna quis scelerisque. Curabitur non hendrerit massa, eget ornare lectus. Phasellus pulvinar mattis facilisis. Pellentesque vel mi eget justo convallis suscipit ac sit amet enim. Phasellus bibendum lacinia dolor elementum sagittis. Proin vulputate, quam vitae tincidunt volutpat, libero turpis tempus quam, vitae laoreet erat leo at lectus. Mauris sit amet orci iaculis, lobortis diam quis, consequat nisi. Etiam fringilla orci id egestas ultrices. Pellentesque tristique faucibus eros, nec varius ante bibendum ut."
 
