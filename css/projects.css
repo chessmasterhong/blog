@@ -9,30 +9,38 @@
     width: 100%;
 }
 
-.projects .views-row-odd .proj_container img {
-    float: right;
-    height: 240px;
-    margin-left: 20px;
-}
-
 .projects .views-row-even .proj_container img {
     float: left;
     height: 240px;
     margin-right: 20px;
 }
 
-.projects .views-row .proj_container .proj_title {
+.projects .views-row-odd .proj_container img {
+    float: right;
+    height: 240px;
+    margin-left: 20px;
+}
+
+.projects .views-row-even .proj_container .proj_text {
+    margin-left: 260px;
+}
+
+.projects .views-row-odd .proj_container .proj_text {
+    margin-right: 260px;
+}
+
+.projects .views-row .proj_container .proj_text .proj_title {
     margin: 10px 0;
 }
 
-.projects .views-row .proj_container .proj_desc {
+.projects .views-row .proj_container .proj_text .proj_desc {
     font-size: 13px;
     line-height: 1.2;
     text-align: justify;
 }
 
-.projects .views-row .proj_container .proj_title h2,
-.projects .views-row .proj_container .proj_desc p {
+.projects .views-row .proj_container .proj_text .proj_title h2,
+.projects .views-row .proj_container .proj_text .proj_desc p {
     margin: 10px 0;
 }
 
@@ -45,17 +53,16 @@
     .projects .views-row-odd .proj_container img {
         clear: both;
         float: left;
-        margin-left: 0;
-        margin-right: 0;
+        margin: auto 0;
     }
 
-    .projects .views-row .proj_container .proj_title,
-    .projects .views-row .proj_container .proj_desc {
+    .projects .views-row .proj_container .proj_text {
         clear: both;
+        margin: auto 0;
         width: 100%
     }
 
-    .projects .views-row .proj_container .proj_title h2 {
+    .projects .views-row .proj_container .proj_text .proj_title h2 {
         margin: 0;
         padding-top: 10px;
     }
