@@ -53,25 +53,22 @@ h1 {
 }
 
 h2, h2 a {
-    /* color: #3498DB !important; */
     font-size: 26px;
 }
 
-h2 a:hover {
-  /* color: #333333 !important; */
-  text-decoration: underline;
-}
-
-h3, h4, h5, h6, h3 a, h4 a, h5 a, h6 a {
-    color: #444444 !important;
-}
-
+h2 a:hover,
 h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-    /* color: #44444 !important; */
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+h3, h3 a,
+h4, h4 a,
+h5, h5 a,
+h6, h6 a {
+    color: #444444 !important;
 }
 
 a {
@@ -85,17 +82,6 @@ a:active {
     text-decoration: underline;
 }
 
-a small {
-    color: #777777;
-    display: block;
-    font-size: 11px;
-    margin-top: -0.6em;
-}
-
-a:hover small {
-    color: #777777;
-}
-
 strong {
     color: #222222;
     font-weight: 700;
@@ -107,10 +93,6 @@ section {
     overflow: hidden;
     padding-bottom: 50px;
     width: 720px;
-}
-
-small {
-    font-size: 11px;
 }
 
 hr {
@@ -360,6 +342,7 @@ a.post-banner:hover {
     margin-bottom: 2em;
 }
 
+
 /* Footer / Sidebar */
 
 footer {
@@ -371,9 +354,10 @@ footer {
     width: 240px;
 }
 
-footer p.sub {
+footer small {
+    display: block;
     font-size: 12px;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 img.avatar {
