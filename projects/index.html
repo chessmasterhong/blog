@@ -8,24 +8,27 @@ css_extras: "projects.css"
 <p>Nothing to see here. Shoo.</p>
 
 <div class="projects">
-    {% for project in site.data.projects %}
+    {% for project in site.posts %}
         {% capture row %}{% cycle '0', '1' %}{% endcapture %}
         {% if row == '0' %}
         <div class="views-row views-row-even">
         {% else %}
         <div class="views-row views-row-odd">
         {% endif %}
-            <img src="{{ project.image }}">
+            <img src="{{ project.thumbnail }}">
             <div class="proj_text">
                 <div class="proj_title"><h2>{{ project.title }}</h2></div>
                 <div class="proj_desc">
-                    <p>{{ project.description }}</p>
+                    <p>{{ project.excerpt }}</p>
                     <p>
                     {% if project.link_details != '' %}
-                        <a href="{{ project.link_details }}">Read more</a>
+                        <a href="{{ project.url }}">Read more</a>
                     {% endif %}
                     {% if project.link_demo != '' %}
                         <a href="{{ project.link_demo }}">Live Demo</a>
+                    {% endif %}
+                    {% if project.link_source != '' %}
+                        <a href="{{ project.link_source }}">View Source</a>
                     {% endif %}
                     </p>
                 </div>
