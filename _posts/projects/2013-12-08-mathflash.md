@@ -1,8 +1,8 @@
 ---
 layout: project_details
 title: "MathFlash"
-link_demo: ""
-link_source: ""
+url_demo: ""
+url_source: ""
 thumbnail: ""
 ---
 

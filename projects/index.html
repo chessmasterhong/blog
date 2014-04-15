@@ -21,14 +21,14 @@ css_extras: "projects.css"
                 <div class="proj_desc">
                     <p>{{ project.excerpt }}</p>
                     <p>
-                    {% if project.link_details != '' %}
+                    {% if project.url_details != '' %}
                         <a href="{{ project.url }}">Read more</a>
                     {% endif %}
-                    {% if project.link_demo != '' %}
-                        <a href="{{ project.link_demo }}">Live Demo</a>
+                    {% if project.url_demo != '' %}
+                        <a href="{{ project.url_demo }}" target="_blank">Live Demo</a>
                     {% endif %}
-                    {% if project.link_source != '' %}
-                        <a href="{{ project.link_source }}">View Source</a>
+                    {% if project.url_source != '' %}
+                        <a href="{{ project.url_source }}" target="_blank">View Source</a>
                     {% endif %}
                     </p>
                 </div>

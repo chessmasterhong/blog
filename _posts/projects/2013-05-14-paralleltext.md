@@ -1,8 +1,8 @@
 ---
 layout: project_details
 title: "ParallelText"
-link_demo: ""
-link_source: ""
+url_demo: "http://parallel-text.herokuapp.com"
+url_source: ""
 thumbnail: ""
 ---
 

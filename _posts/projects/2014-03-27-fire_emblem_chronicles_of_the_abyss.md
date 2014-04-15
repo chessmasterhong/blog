@@ -1,8 +1,8 @@
 ---
 layout: project_details
 title: "Fire Emblem: Chronicles of the Abyss"
-link_demo: ""
-link_source: ""
+url_demo: ""
+url_source: ""
 thumbnail: ""
 ---
 
