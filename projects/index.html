@@ -20,9 +20,14 @@ css_extras: "projects.css"
                 <div class="proj_title"><h2>{{ project.title }}</h2></div>
                 <div class="proj_desc">
                     <p>{{ project.description }}</p>
+                    <p>
                     {% if project.link_details != '' %}
-                    <p><a href="{{ project.link_details }}">Read more</a></p>
+                        <a href="{{ project.link_details }}">Read more</a>
                     {% endif %}
+                    {% if project.link_demo != '' %}
+                        <a href="{{ project.link_demo }}">Live Demo</a>
+                    {% endif %}
+                    </p>
                 </div>
             </div>
         </div>

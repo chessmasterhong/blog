@@ -3,15 +3,12 @@ font_color0: "#333333"
 border_color0: "#e5e5e5"
 ---
 
-@import url(http://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-
-
 /* Scaffolding */
 
 body {
     color: {{ page.font_color0 }};
     font-weight: 300;
-    font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 16px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 50px;
 }
@@ -109,7 +106,7 @@ section {
     min-height: 400px;
     overflow: hidden;
     padding-bottom: 50px;
-    width: 680px;
+    width: 720px;
 }
 
 small {
@@ -181,7 +178,7 @@ header {
     min-height: 100%;
     padding-right: 30px;
     position: fixed;
-    width: 275px;
+    width: 240px;
 }
 
 header h1 {
@@ -371,11 +368,12 @@ footer {
     font-size: 14px;
     position: fixed;
     text-align: center;
-    width: 275px;
+    width: 240px;
 }
 
 footer p.sub {
     font-size: 12px;
+    margin: 10px;
 }
 
 img.avatar {
@@ -409,7 +407,7 @@ img.pull-left {
 
 /* Responsive Adjustments */
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1120px) {
     div.wrapper {
         margin: 0;
         width: auto;
@@ -418,7 +416,7 @@ img.pull-left {
     header, section, footer {
         float: none;
         position: static;
-        width: auto;
+        width: 100%;
     }
 
     header {
@@ -437,12 +435,15 @@ img.pull-left {
     }
 
     nav ul {
+        border-bottom: none;
+        border-radius: 5px 5px 0 0;
         height: 24px;
         top: 70px;
         width: 272px;
     }
 
     nav li {
+        border-bottom: none;
         border-right: 1px solid {{ page.border_color0 }};
         float: left;
         width: 67px;
@@ -470,11 +471,6 @@ img.pull-left {
 @media print, screen and (max-width: 720px) {
     body {
         word-wrap: break-word;
-    }
-
-    div.wrapper {
-        margin: 0;
-        width: auto;
     }
 
     header {
