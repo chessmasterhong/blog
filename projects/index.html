@@ -15,16 +15,14 @@ css_extras: "projects.css"
         {% else %}
         <div class="views-row views-row-odd">
         {% endif %}
-            <div class="proj_container">
-                <img src="{{ project.image }}">
-                <div class="proj_text">
-                    <div class="proj_title"><h2>{{ project.title }}</h2></div>
-                    <div class="proj_desc">
-                        <p>{{ project.description }}</p>
-                        {% if project.link_details != '' %}
-                        <p><a href="{{ project.link_details }}">Read more</a></p>
-                        {% endif %}
-                    </div>
+            <img src="{{ project.image }}">
+            <div class="proj_text">
+                <div class="proj_title"><h2>{{ project.title }}</h2></div>
+                <div class="proj_desc">
+                    <p>{{ project.description }}</p>
+                    {% if project.link_details != '' %}
+                    <p><a href="{{ project.link_details }}">Read more</a></p>
+                    {% endif %}
                 </div>
             </div>
         </div>
