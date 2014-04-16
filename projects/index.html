@@ -8,7 +8,7 @@ css_extras: "projects.css"
 <p>Nothing to see here. Shoo.</p>
 
 <div class="projects">
-    {% for project in site.posts %}
+    {% for project in site.categories.projects %}
     {% capture row %}{% cycle '0', '1' %}{% endcapture %}
     {% if row == '0' %}
     <div class="views-row views-row-even">

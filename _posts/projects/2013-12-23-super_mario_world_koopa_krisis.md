@@ -1,5 +1,6 @@
 ---
 layout: project_details
+categories: ['projects']
 title: "Super Mario World: Koopa Krisis"
 url_demo: ""
 url_source: ""

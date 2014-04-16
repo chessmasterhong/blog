@@ -1,5 +1,6 @@
 ---
 layout: project_details
+categories: ['projects']
 title: "ParallelText"
 url_demo: "http://parallel-text.herokuapp.com"
 url_source: ""

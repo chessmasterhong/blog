@@ -1,5 +1,6 @@
 ---
 layout: project_details
+categories: ['projects']
 title: "MathFlash"
 url_demo: ""
 url_source: ""

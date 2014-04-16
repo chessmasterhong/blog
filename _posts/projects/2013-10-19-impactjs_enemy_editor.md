@@ -1,5 +1,6 @@
 ---
 layout: project_details
+categories: ['projects']
 title: "ImpactJS Enemy Editor"
 url_demo: ""
 url_source: "http://bitbucket.org/chessmasterhong/smw-koopa-krisis_enemy-editor"

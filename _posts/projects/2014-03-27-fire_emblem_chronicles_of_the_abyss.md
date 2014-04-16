@@ -1,5 +1,6 @@
 ---
 layout: project_details
+categories: ['projects']
 title: "Fire Emblem: Chronicles of the Abyss"
 url_demo: ""
 url_source: ""
