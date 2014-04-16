@@ -6,12 +6,12 @@
 
         <title>{{ page.title }} - {{ site.name }}</title>
 
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700">
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Lato:300,300italic,700,700italic'>
+        <link rel="stylesheet" type='text/css' href="/css/style.css">
+        <link rel="stylesheet" type='text/css' href="/css/font-awesome.min.css">
 
         {% for css_extras in page.css_extras %}
-        <link rel="stylesheet" href="/css/{{ css_extras }}">
+        <link rel="stylesheet" type='text/css' href="/css/{{ css_extras }}">
         {% endfor %}
 
         <!-- <link rel="stylesheet" href="/css/pygment_trac.css"> -->
@@ -43,16 +43,16 @@
 
             <footer>
                 <p>
-                    <a href="http://github.com/chessmasterhong"><i class="fa fa-github"></i> GitHub</a> |
-                    <a href="http://bitbucket.org/chessmasterhong"><i class="fa fa-bitbucket"></i> Bitbucket</a> |
-                    <a href=""><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+                    <a href="http://github.com/chessmasterhong" target="_blank"><i class="fa fa-github"></i> GitHub</a> |
+                    <a href="http://bitbucket.org/chessmasterhong" target="_blank"><i class="fa fa-bitbucket"></i> Bitbucket</a> |
+                    <a href=""><i class="fa fa-linkedin-square" target="_blank"></i> LinkedIn</a>
                 </p>
                 <small>
                     Copyright &copy; 2014 Kevin Chan
                 </small>
                 <small>
-                    Created with <a href="http://jekyllrb.com">Jekyll</a>.
-                    Original theme by <a href="https://github.com/orderedlist">orderedlist</a>, with modifications.
+                    Created with <a href="http://jekyllrb.com" target="_blank">Jekyll</a>.
+                    Original theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a>, with modifications.
                 </small>
             </footer>
         </div>

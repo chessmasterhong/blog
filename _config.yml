@@ -10,8 +10,8 @@ navigation:
   url: "/"
 - text: "Projects"
   url: "/projects"
-- text: "Resources"
-  url: "/resources"
+- text: ""
+  url: ""
 - text: "Contact"
   url: "/contact"
 

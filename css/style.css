@@ -36,35 +36,20 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 20px;
 }
 
-p, ul, ol, table, pre, dl {
-    margin: 0 0 20px;
-}
-
 h1, h2, h3 {
-    line-height: 1.1;
+    line-height: 1;
 }
 
 h1 {
     font-size: 30px;
 }
 
-h2, h2 a {
+h2 {
     font-size: 26px;
 }
 
-h2 a:hover,
-h3 a:hover,
-h4 a:hover,
-h5 a:hover,
-h6 a:hover {
-  text-decoration: underline;
-}
-
-h3, h3 a,
-h4, h4 a,
-h5, h5 a,
-h6, h6 a {
-    color: #444444 !important;
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #4f738d;
 }
 
 a {
@@ -76,6 +61,10 @@ a:hover,
 a:active {
     color: #4f738d;
     text-decoration: underline;
+}
+
+p, ul, ol, table, pre, dl {
+    margin: 0 0 20px;
 }
 
 strong {
@@ -170,6 +159,7 @@ nav ul {
     background: #ffffff;
     border-radius: 5px;
     border: 1px solid {{ page.border_color0 }};
+    font-size: 13px;
     list-style: none;
     padding: 0;
 }
@@ -177,6 +167,8 @@ nav ul {
 nav li {
     border-bottom: 1px solid {{ page.border_color0 }};
     height: 24px;
+    line-height: 24px;
+    text-align: center;
 }
 
 nav li:last-child {
@@ -186,9 +178,6 @@ nav li:last-child {
 nav li a {
     color: {{ page.font_color0 }};
     display: block;
-    font-size: 13px;
-    line-height: 24px;
-    text-align: center;
 }
 
 nav li a:hover,
@@ -372,18 +361,6 @@ img.profile {
     width: 100px;
 }
 
-img.pull-right {
-    float: right;
-    margin: 0 0 1em 1em;
-    max-width: 40%;
-}
-
-img.pull-left {
-    float: right;
-    margin: 0 1em 1em 0;
-    max-width: 40%;
-}
-
 
 /* Responsive Adjustments */
 
@@ -418,7 +395,7 @@ img.pull-left {
         border-bottom: none;
         border-radius: 5px 5px 0 0;
         height: 24px;
-        top: 70px;
+        top: 67px;
         width: 288px;
     }
 
