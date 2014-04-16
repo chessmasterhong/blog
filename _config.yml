@@ -1,5 +1,18 @@
 name: Kevin Chan
+
 permalink: /:categories/:title
+
 markdown: kramdown
 pygments: true
+
+navigation:
+- text: "Home"
+  url: "/"
+- text: "Projects"
+  url: "/projects"
+- text: "About"
+  url: "/about"
+- text: "Contact"
+  url: "/contact"
+
 
