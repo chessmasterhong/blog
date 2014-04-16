@@ -3,7 +3,7 @@ layout: project_details
 title: "ImpactJS Enemy Editor"
 url_demo: ""
 url_source: "http://bitbucket.org/chessmasterhong/smw-koopa-krisis_enemy-editor"
-thumbnail: "/img/editor0.jpg"
+thumbnail: "/img/editor0.png"
 thumbnail_margin: "style=\"margin: -15px 0 0 -10px;\""
 ---
 

@@ -419,19 +419,19 @@ img.pull-left {
         border-radius: 5px 5px 0 0;
         height: 24px;
         top: 70px;
-        width: 272px;
+        width: 288px;
     }
 
     nav li {
         border-bottom: none;
         border-right: 1px solid {{ page.border_color0 }};
         float: left;
-        width: 67px;
+        width: 71px;
     }
 
     nav li:last-child {
         border-right: none;
-        width: 68px;
+        width: 72px;
     }
 
     section {

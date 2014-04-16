@@ -3,8 +3,8 @@ layout: project_details
 title: "MathFlash"
 url_demo: ""
 url_source: ""
-thumbnail: ""
-thumbnail_margin: ""
+thumbnail: "/img/mf0.png"
+thumbnail_margin: "style=\"margin: -5px 0 0 -10px;\""
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero augue, adipiscing at elementum vel, blandit porta risus. Suspendisse metus enim, feugiat eu aliquam vitae, condimentum sed enim. Duis aliquam dolor ac urna malesuada scelerisque. Fusce volutpat, ante vel bibendum varius, quam tellus pellentesque urna, ut lobortis nunc turpis sit amet libero. Nunc aliquam tristique ultricies. Vestibulum vitae rutrum leo, ac viverra eros. Duis laoreet consequat eros. Quisque congue quam a tellus viverra ullamcorper. Sed venenatis massa et ligula interdum, condimentum feugiat lorem gravida. Fusce in nulla imperdiet, pharetra augue vel, hendrerit turpis. Mauris id elementum leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
