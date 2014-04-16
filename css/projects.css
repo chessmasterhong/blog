@@ -3,19 +3,29 @@
 .projects .views-row {
     clear: both;
     width: 100%;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
-.projects .views-row-even img {
+.projects .views-row .img_container {
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    width: 240px;
+}
+
+.projects .views-row-even .img_container {
     float: left;
-    height: 240px;
-    /* margin-right: 20px; */
 }
 
-.projects .views-row-odd img {
+.projects .views-row-odd .img_container {
     float: right;
-    height: 240px;
-    /* margin-left: 20px; */
+}
+
+.projects .views-row .img_container img {
+    position: absolute;
+    height: 360px;
+    width: auto;
+    /* margin-right: 20px; */
 }
 
 .projects .views-row-even .proj_text {
@@ -46,8 +56,8 @@
 /* @media print, screen and (max-width: 960px) {} */
 
 @media print, screen and (max-width: 720px) {
-    .projects .views-row-even img,
-    .projects .views-row-odd img {
+    .projects .views-row-even .img_container,
+    .projects .views-row-odd .img_container {
         float: left;
         margin: auto 0;
     }

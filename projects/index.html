@@ -15,9 +15,13 @@ css_extras: "projects.css"
         {% else %}
         <div class="views-row views-row-odd">
         {% endif %}
-            <img src="{{ project.thumbnail }}">
+            <div class="img_container">
+                <a href="{{ project.url }}"><img {{ project.thumbnail_margin }} src="{{ project.thumbnail }}"></a>
+            </div>
             <div class="proj_text">
-                <div class="proj_title"><h2>{{ project.title }}</h2></div>
+                <div class="proj_title">
+                    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+                </div>
                 <div class="proj_desc">
                     <p>{{ project.excerpt }}</p>
                     <p>

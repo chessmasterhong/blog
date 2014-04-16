@@ -26,10 +26,6 @@
                     <ul>
                         {% for nav in site.navigation %}
                             {% if nav.text == page.title %}
-                                {% assign current = nav.url %}
-                            {% endif %}
-
-                            {% if nav.url == current %}
                             <li><a class="active" href="{{ nav.url }}">{{ nav.text }}</a></li>
                             {% else %}
                             <li><a href="{{ nav.url }}">{{ nav.text }}</a></li>
