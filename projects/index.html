@@ -9,34 +9,34 @@ css_extras: "projects.css"
 
 <div class="projects">
     {% for project in site.posts %}
-        {% capture row %}{% cycle '0', '1' %}{% endcapture %}
-        {% if row == '0' %}
-        <div class="views-row views-row-even">
-        {% else %}
-        <div class="views-row views-row-odd">
-        {% endif %}
-            <div class="img_container">
-                <a href="{{ project.url }}"><img {{ project.thumbnail_margin }} src="{{ project.thumbnail }}"></a>
+    {% capture row %}{% cycle '0', '1' %}{% endcapture %}
+    {% if row == '0' %}
+    <div class="views-row views-row-even">
+    {% else %}
+    <div class="views-row views-row-odd">
+    {% endif %}
+        <div class="img_container">
+            <a href="{{ project.url }}"><img {{ project.thumbnail_margin }} src="{{ project.thumbnail }}"></a>
+        </div>
+        <div class="proj_text">
+            <div class="proj_title">
+                <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
             </div>
-            <div class="proj_text">
-                <div class="proj_title">
-                    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-                </div>
-                <div class="proj_desc">
-                    <p>{{ project.excerpt }}</p>
-                    <p>
-                    {% if project.url_details != '' %}
-                        <a href="{{ project.url }}">Read more</a>
-                    {% endif %}
-                    {% if project.url_demo != '' %}
-                        <a href="{{ project.url_demo }}" target="_blank">Live Demo</a>
-                    {% endif %}
-                    {% if project.url_source != '' %}
-                        <a href="{{ project.url_source }}" target="_blank">View Source</a>
-                    {% endif %}
-                    </p>
-                </div>
+            <div class="proj_desc">
+                <p>{{ project.excerpt }}</p>
+                <p>
+                {% if project.url_details != '' %}
+                    <a href="{{ project.url }}">Read more</a>
+                {% endif %}
+                {% if project.url_demo != '' %}
+                    <a href="{{ project.url_demo }}" target="_blank">Live Demo</a>
+                {% endif %}
+                {% if project.url_source != '' %}
+                    <a href="{{ project.url_source }}" target="_blank">View Source</a>
+                {% endif %}
+                </p>
             </div>
         </div>
+    </div>
     {% endfor %}
 </div>

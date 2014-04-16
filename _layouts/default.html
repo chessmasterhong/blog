@@ -24,12 +24,14 @@
                 <h1><a href="/">{{ site.name }}</a></h1>
                 <nav>
                     <ul>
+                        {% assign curr_url = page.url | split: '/' %}
                         {% for nav in site.navigation %}
-                            {% if nav.text == page.title %}
-                            <li><a class="active" href="{{ nav.url }}">{{ nav.text }}</a></li>
-                            {% else %}
-                            <li><a href="{{ nav.url }}">{{ nav.text }}</a></li>
-                            {% endif %}
+                        {% assign nav_url = nav.url | split: '/' %}
+                        {% if nav_url[1] == curr_url[1] %}
+                        <li><a class="active" href="{{ nav.url }}">{{ nav.text }}</a></li>
+                        {% else %}
+                        <li><a href="{{ nav.url }}">{{ nav.text }}</a></li>
+                        {% endif %}
                         {% endfor %}
                     </ul>
                 </nav>
