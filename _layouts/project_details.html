@@ -10,7 +10,7 @@ layout: default
     <div class="bx-viewport">
         <ul class="bxslider">
             {% for slide in page.slides %}
-            <li><img src="{{ slide }}"></li>
+            <li><img src="{{ slide.image }}" title="{{ slide.caption }}"></li>
             {% endfor %}
         </ul>
     </div>
@@ -18,7 +18,7 @@ layout: default
     <div id="bx-pager">
         <ul>
             {% for slide in page.slides %}
-            <li><a href="" data-slide-index="{{ forloop.index | minus: 1 }}"><img src="{{ slide }}"></a></li>
+            <li><a href="" data-slide-index="{{ forloop.index | minus: 1 }}"><img src="{{ slide.image }}"></img></a></li>
             {% endfor %}
         </ul>
     </div>
@@ -34,6 +34,7 @@ layout: default
 <script type="text/javascript">
     $(document).ready(function() {
         $('.bxslider').bxSlider({
+            captions: true,
             pagerCustom: '#bx-pager'
         });
     });
