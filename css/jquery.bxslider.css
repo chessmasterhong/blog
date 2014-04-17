@@ -30,19 +30,26 @@
 }
 
 #bx-pager li {
+	border: 1px solid #cccccc;
 	display: inline-block;
 	height: 100px;
+	margin: 2px;
     overflow: hidden;
+    padding: 4px;
     position: relative;
     text-align: left;
     width: 100px;
 }
 
-#bx-pager li img {
+#bx-pager li a img {
 	height: 200px;
-	margin: -30px 0 0 -45px;
+	margin: -20px 0 0 -50px;
     position: absolute;
     width: auto;
+}
+
+#bx-pager li:hover {
+	border: 1px solid #5280dd;
 }
 
 /** THEME
@@ -150,9 +157,18 @@
 	height: 32px;
 	text-indent: -9999px;
 	z-index: 9999;
+
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
 }
 
-.bx-wrapper .bx-controls-direction a.disabled {
+.bx-viewport:hover .bx-controls-direction a {
+	opacity: 1;
+}
+
+.bx-viewport .bx-controls-direction a.disabled {
 	display: none;
 }
 
