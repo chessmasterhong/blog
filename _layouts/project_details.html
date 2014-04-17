@@ -6,11 +6,26 @@ layout: default
 
 {% capture slide_count %}{{ page.slides | size }}{% endcapture %}
 {% if slide_count > '0' %}
-<ul class="bxslider">
-    {% for slide in page.slides %}
-    <li><img src="{{ slide }}"></li>
-    {% endfor %}
-</ul>
+<div class="bx-wrapper">
+    <div class="bx-viewport">
+        <ul class="bxslider">
+            {% for slide in page.slides %}
+            <li><img src="{{ slide }}"></li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div id="bx-pager"">
+        <ul>
+            {% for slide in page.slides %}
+            <li><a href="" data-slide-index="{{ forloop.index | minus: 1 }}"><img src="{{ slide }}"></a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+
+
 {% endif %}
 
 {{ content }}
@@ -18,7 +33,9 @@ layout: default
 {% if slide_count > '0' %}
 <script type="text/javascript">
     $(document).ready(function() {
-      $('.bxslider').bxSlider();
+        $('.bxslider').bxSlider({
+            pagerCustom: '#bx-pager'
+        });
     });
 </script>
 {% endif %}
