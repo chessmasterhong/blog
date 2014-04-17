@@ -34,8 +34,12 @@ layout: default
 <script type="text/javascript">
     $(document).ready(function() {
         $('.bxslider').bxSlider({
+            {% if slide_count > '1' %}
+            auto: true,
+            {% endif %}
             captions: true,
-            pagerCustom: '#bx-pager'
+            pagerCustom: '#bx-pager',
+            pause: 6000
         });
     });
 </script>
