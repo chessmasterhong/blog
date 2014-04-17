@@ -2,14 +2,14 @@
 
 .projects .views-row {
     clear: both;
-    width: 100%;
     padding: 20px 0;
+    width: 100%;
 }
 
 .projects .views-row .img_container {
     box-shadow: 2px 2px 4px 2px #999999;
-    -moz-box-shadow: 2px 2px 4px 2px #999999;
-    -webkit-box-shadow: 2px 2px 4px 2px #999999;
+    -moz-box-shadow:2px 2px 4px 2px #999999;
+    -webkit-box-shadow:2px 2px 4px 2px #999999;
     height: 240px;
     overflow: hidden;
     position: relative;

@@ -101,6 +101,8 @@ blockquote {
 code, pre {
     background: #f8f8f8;
     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border: 1px solid {{ page.border_color0 }};
     color: {{ page.font_color0 }};
     font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
@@ -162,6 +164,8 @@ header h1 {
 nav ul {
     background: #ffffff;
     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border: 1px solid {{ page.border_color0 }};
     font-size: 13px;
     list-style: none;
@@ -213,6 +217,8 @@ nav li a.active:hover {
 .pagination ul {
     background: #ffffff;
     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border: 1px solid {{ page.border_color0 }};
     display: inline-block;
     float: right;
@@ -222,13 +228,13 @@ nav li a.active:hover {
 }
 
 .pagination li {
+    border-right: 1px solid {{ page.border_color0 }};
     float: left;
     height: 24px;
-    border-right: 1px solid {{ page.border_color0 }};
 }
 
 .pagination li:last-child {
-  border-right: none;
+    border-right: none;
 }
 
 .pagination li a {
@@ -245,10 +251,14 @@ nav li a.active:hover {
 
 .pagination li:first-child a {
     border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
 }
 
 .pagination li:last-child a {
     border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
 }
 
 .pagination li.prev a {
@@ -293,6 +303,9 @@ nav li a.active:hover {
 
 .post-banner {
     background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    -webkit-background-size: auto 100%;
     background: #000000 url('/img/post-banners/no-image.gif') center;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -307,6 +320,9 @@ nav li a.active:hover {
 .post-banner.no-image,
 .post-banner.no-image:hover {
     background-size: 100% 100% !important;
+    -moz-background-size: 100% 100% !important;
+    -o-background-size: 100% 100% !important;
+    -webkit-background-size: 100% 100% !important;
 }
 
 .post-banner > img {
@@ -320,11 +336,17 @@ nav li a.active:hover {
 }
 
 a.post-banner {
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
 }
 
 a.post-banner:hover {
     background-size: auto 104%;
+    -moz-background-size: auto 104%;
+    -o-background-size: auto 104%;
+    -webkit-background-size: auto 104%;
 }
 
 .post-excerpt {
@@ -351,8 +373,8 @@ footer small {
 
 img.avatar {
     border-radius: 40px;
-    -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
     height: 72px;
     width: 72px;
 }
@@ -387,12 +409,14 @@ img.profile {
 
     nav ul {
         border-bottom: none;
-        border-radius: 5px 5px 0 0;
         height: 24px;
         position: absolute;
         right: 50px;
         top: 67px;
         width: 288px;
+        border-radius: 5px 5px 0 0;
+        -moz-border-radius: 5px 5px 0 0;
+        -webkit-border-radius: 5px 5px 0 0;
     }
 
     nav li {
@@ -431,8 +455,8 @@ img.profile {
     }
 
     nav ul {
-        position: static;
         margin-bottom: -1px;
+        position: static;
     }
 
     pre, pre > code {
@@ -448,13 +472,14 @@ img.profile {
     .post-meta {
         font-size: 15px;
     }
+
 }
 
 @media print {
     body {
-        padding: 0.4in;
-        font-size: 12pt;
         color: #444444;
+        font-size: 12pt;
+        padding: 0.4in;
     }
 
     nav ul {
