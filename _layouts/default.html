@@ -30,11 +30,15 @@
                     <ul>
                         {% assign curr_url = page.url | split: '/' %}
                         {% for nav in site.navigation %}
+                        {% if nav.url == '/' and curr_url[1] == 'index.html' %}
+                        <li><a class="active" href="/">{{ nav.text }}</a></li>
+                        {% else %}
                         {% assign nav_url = nav.url | split: '/' %}
                         {% if nav_url[1] == curr_url[1] %}
                         <li><a class="active" href="{{ nav.url }}">{{ nav.text }}</a></li>
                         {% else %}
                         <li><a href="{{ nav.url }}">{{ nav.text }}</a></li>
+                        {% endif %}
                         {% endif %}
                         {% endfor %}
                     </ul>
