@@ -3,4 +3,22 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
+
+{% capture slide_count %}{{ page.slides | size }}{% endcapture %}
+{% if slide_count > '0' %}
+<ul class="bxslider">
+    {% for slide in page.slides %}
+    <li><img src="{{ slide }}"></li>
+    {% endfor %}
+</ul>
+{% endif %}
+
 {{ content }}
+
+{% if slide_count > '0' %}
+<script type="text/javascript">
+    $(document).ready(function() {
+      $('.bxslider').bxSlider();
+    });
+</script>
+{% endif %}
