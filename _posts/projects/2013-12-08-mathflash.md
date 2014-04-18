@@ -5,7 +5,7 @@ title: "MathFlash"
 url_demo: ""
 url_source: ""
 thumbnail: "/img/mf0.png"
-thumbnail_style: "style=\"margin: -5px 0 0 -10px; height: 160%;\""
+thumbnail_style: "background-position: top -5px left -10px; background-size: 220%;"
 slides: [{ image: "/img/mf0.png", caption: "hello1" }]
 ---
 

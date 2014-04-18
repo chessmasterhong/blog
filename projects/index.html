@@ -15,15 +15,16 @@ css_extras: ["/css/projects.css"]
     {% else %}
     <div class="views-row views-row-odd">
     {% endif %}
-        <div class="img_container">
-            <a href="{{ project.url }}"><img {{ project.thumbnail_style }} src="{{ project.thumbnail }}"></a>
-        </div>
+        <a href="{{ project.url }}">
+            <div class="img_container" style="background-image: url({{ project.thumbnail }}); {{ project.thumbnail_style }}">
+            </div>
+        </a>
         <div class="proj_text">
             <div class="proj_title">
                 <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
             </div>
             <div class="proj_desc">
-                <p>{{ project.excerpt }}</p>
+                {{ project.excerpt }}
                 <p>
                 {% if project.url_details != '' %}
                     <a href="{{ project.url }}">Read more</a>

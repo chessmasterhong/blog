@@ -7,6 +7,7 @@
 }
 
 .projects .views-row .img_container {
+    background-repeat: no-repeat;
     box-shadow: 2px 2px 4px 2px #999999;
     -moz-box-shadow:2px 2px 4px 2px #999999;
     -webkit-box-shadow:2px 2px 4px 2px #999999;
@@ -24,11 +25,6 @@
 .projects .views-row-odd .img_container {
     float: right;
     margin-right: 8px;
-}
-
-.projects .views-row .img_container img {
-    position: absolute;
-    width: auto;
 }
 
 .projects .views-row-even .proj_text {
