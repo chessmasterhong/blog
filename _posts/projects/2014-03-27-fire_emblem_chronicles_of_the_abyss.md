@@ -4,7 +4,7 @@ categories: ["projects"]
 title: "Fire Emblem: Chronicles of the Abyss"
 url_demo: ""
 url_source: ""
-thumbnail_style: "background: url(/img/fe1.png) no-repeat -125px -20px; background-size: 200%;"
+thumbnail_style: "background: url(/img/fe1.png) -125px -20px no-repeat content-box; background-size: 200%;"
 slides: [{ image: "/img/fe1.png", caption: "hello1" },
          { image: "/img/fe2.png", caption: "hello2" }]
 ---

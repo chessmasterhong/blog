@@ -4,7 +4,7 @@ categories: ["projects"]
 title: "Super Mario World: Koopa Krisis"
 url_demo: ""
 url_source: ""
-thumbnail_style: "background: url(/img/smw0.png) no-repeat -45px -45px; background-size: 200%;"
+thumbnail_style: "background: url(/img/smw0.png) no-repeat -45px -45px content-box; background-size: 200%;"
 slides: [{ image: "/img/smw0.png", caption: "hello1" }]
 ---
 
