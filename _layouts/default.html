@@ -11,15 +11,15 @@
         <link rel="stylesheet" type='text/css' href="/css/font-awesome.min.css">
 
         {% for css_extras in page.css_extras %}
-        <link rel="stylesheet" type='text/css' href="/css/{{ css_extras }}">
+        <link rel="stylesheet" type='text/css' href="{{ css_extras }}">
         {% endfor %}
 
         <!-- <link rel="stylesheet" href="/css/pygment_trac.css"> -->
         <!-- <link rel="stylesheet" href="/css/syntax.css"> -->
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="/js/jquery.bxslider.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="/css/jquery.bxslider.css">
+        {% for js_extras in page.js_extras %}
+        <script type="text/javascript" src="{{ js_extras }}"></script>
+        {% endfor %}
     </head>
 
     <body>
