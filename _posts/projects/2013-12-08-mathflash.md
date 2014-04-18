@@ -4,8 +4,7 @@ categories: ["projects"]
 title: "MathFlash"
 url_demo: ""
 url_source: ""
-thumbnail: "/img/mf0.png"
-thumbnail_style: "background-position: top -5px left -10px; background-size: 220%;"
+thumbnail_style: "background: url(/img/mf0.png) no-repeat top -5px left -10px; background-size: 220%;"
 slides: [{ image: "/img/mf0.png", caption: "hello1" }]
 ---
 

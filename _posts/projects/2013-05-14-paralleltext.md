@@ -4,8 +4,7 @@ categories: ["projects"]
 title: "ParallelText"
 url_demo: "http://parallel-text.herokuapp.com"
 url_source: ""
-thumbnail: "/img/pt0.png"
-thumbnail_style: "background-position: top -20px left -5px; background-size: 200%;"
+thumbnail_style: "background: url(/img/pt0.png) no-repeat top -20px left -5px; background-size: 190%;"
 slides: [{ image: "/img/pt0.png", caption: "hello1" },
          { image: "/img/pt1.png", caption: "hello2" },
          { image: "/img/pt2.png", caption: "hello3" }]

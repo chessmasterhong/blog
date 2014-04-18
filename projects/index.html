@@ -16,8 +16,7 @@ css_extras: ["/css/projects.css"]
     <div class="views-row views-row-odd">
     {% endif %}
         <a href="{{ project.url }}">
-            <div class="img_container" style="background-image: url({{ project.thumbnail }}); {{ project.thumbnail_style }}">
-            </div>
+            <div class="img_container" style="{{ project.thumbnail_style }}"></div>
         </a>
         <div class="proj_text">
             <div class="proj_title">
