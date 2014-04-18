@@ -21,7 +21,11 @@ js_extras: ["//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js",
     <div id="bx-pager">
         <ul>
             {% for slide in page.slides %}
-            <li><a href="" data-slide-index="{{ forloop.index | minus: 1 }}"><img src="{{ slide.image }}"></img></a></li>
+            <li>
+                <a href="" data-slide-index="{{ forloop.index | minus: 1 }}">
+                    <div class="img_container" style="background: url({{ slide.image }}) no-repeat top -5px left -10px; background-size: 200px;"></div>
+                </a>
+            </li>
             {% endfor %}
         </ul>
     </div>

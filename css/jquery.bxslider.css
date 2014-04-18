@@ -16,7 +16,7 @@
 
 .bx-wrapper {
 	*zoom: 1;
-	margin: 0 auto 60px;
+	margin: 0 auto;
 	padding: 0;
 	position: relative;
 }
@@ -27,26 +27,20 @@
 }
 
 #bx-pager {
+	margin-left: -40px;
 	text-align: center;
 }
 
 #bx-pager li {
-	border: 3px solid #ffffff;
 	display: inline-block;
-	height: 100px;
-	margin: 10px 2px -20px;
-	outline: 1px solid #cccccc;
-    overflow: hidden;
-    position: relative;
-    text-align: left;
-    width: 100px;
+	margin: 5px 2px;
 }
 
-#bx-pager li a img {
-	height: 200px;
-	margin: -25px 0 0 -45px;
-    position: absolute;
-    width: auto;
+#bx-pager li .img_container {
+	border: 3px solid #ffffff;
+	height: 100px;
+	outline: 1px solid #cccccc;
+	width: 100px;
 }
 
 #bx-pager li:hover {
