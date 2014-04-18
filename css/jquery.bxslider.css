@@ -26,26 +26,6 @@
 	max-width: 100%;
 }
 
-#bx-pager {
-	margin-left: -40px;
-	text-align: center;
-}
-
-#bx-pager li {
-	display: inline-block;
-	margin: 5px 2px;
-}
-
-#bx-pager li .img_container {
-	border: 3px solid #ffffff;
-	height: 100px;
-	outline: 1px solid #cccccc;
-	width: 100px;
-}
-
-#bx-pager li:hover {
-	outline: 1px solid #5280dd;
-}
 
 /** THEME
 ===================================*/
@@ -69,7 +49,9 @@
 	width: 100%;
 }
 
-/* LOADER */
+
+/** LOADER
+===================================*/
 
 .bx-wrapper .bx-loading {
 	background: url(/img/bxslider/bx_loader.gif) center center no-repeat #ffffff;
@@ -82,7 +64,9 @@
 	z-index: 2000;
 }
 
-/* PAGER */
+
+/* PAGER
+===================================*/
 
 .bx-wrapper .bx-pager {
 	color: #666666;
@@ -118,7 +102,35 @@
 	background: #000000;
 }
 
-/* DIRECTION CONTROLS (NEXT / PREV) */
+
+/* Custom thumbnail pager */
+
+#bx-pager {
+	margin-left: -40px;
+	text-align: center;
+}
+
+#bx-pager li {
+	display: inline-block;
+	margin: 5px 2px;
+}
+
+#bx-pager li .img_container {
+	border: 2px solid #ffffff;
+	height: 100px;
+	outline: 2px solid #cccccc;
+	width: 100px;
+}
+
+#bx-pager li:hover .img_container,
+#bx-pager li a.active .img_container {
+	border: 2px solid #ffffff;
+	outline: 2px solid #5280dd;
+}
+
+
+/* DIRECTION CONTROLS (NEXT / PREV)
+===================================*/
 
 .bx-wrapper .bx-prev {
 	background: url(/img/bxslider/controls.png) no-repeat 0 -32px;
@@ -162,7 +174,9 @@
 	display: none;
 }
 
-/* AUTO CONTROLS (START / STOP) */
+
+/* AUTO CONTROLS (START / STOP)
+===================================*/
 
 .bx-wrapper .bx-controls-auto {
 	text-align: center;
@@ -198,7 +212,9 @@
 	background-position: -86px -33px;
 }
 
-/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT
+===================================*/
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
 	text-align: left;
@@ -210,7 +226,9 @@
 	width: 35px;
 }
 
-/* IMAGE CAPTIONS */
+
+/* IMAGE CAPTIONS
+===================================*/
 
 .bx-wrapper .bx-caption {
 	/* position: absolute;
