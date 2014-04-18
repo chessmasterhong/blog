@@ -9,8 +9,8 @@
 .projects .views-row .img_container {
     background-repeat: no-repeat;
     box-shadow: 2px 2px 4px 2px #999999;
-    -moz-box-shadow:2px 2px 4px 2px #999999;
-    -webkit-box-shadow:2px 2px 4px 2px #999999;
+    -moz-box-shadow: 2px 2px 4px 2px #999999;
+    -webkit-box-shadow: 2px 2px 4px 2px #999999;
     height: 240px;
     overflow: hidden;
     position: relative;

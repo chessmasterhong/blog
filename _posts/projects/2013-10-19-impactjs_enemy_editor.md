@@ -4,7 +4,7 @@ categories: ["projects"]
 title: "ImpactJS Enemy Editor"
 url_demo: ""
 url_source: "http://bitbucket.org/chessmasterhong/smw-koopa-krisis_enemy-editor"
-thumbnail_style: "background: url(/img/editor0.png) no-repeat top -15px left -5px; background-size: 280%;"
+thumbnail_style: "background: url(/img/editor0.png) no-repeat -5px -15px; background-size: 280%;"
 slides: [{ image: "/img/editor0.png", caption: "hello1" },
          { image: "/img/editor1.png", caption: "hello2" },
          { image: "/img/editor2.png", caption: "hello3" }]

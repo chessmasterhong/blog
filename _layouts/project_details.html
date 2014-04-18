@@ -23,7 +23,7 @@ js_extras: ["//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js",
             {% for slide in page.slides %}
             <li>
                 <a href="" data-slide-index="{{ forloop.index | minus: 1 }}">
-                    <div class="img_container" style="background: url({{ slide.image }}) no-repeat top -10px left -20px; background-size: 200px;"></div>
+                    <div class="img_container" style="background: url({{ slide.image }}) no-repeat -20px -10px; background-size: 200px;"></div>
                 </a>
             </li>
             {% endfor %}
