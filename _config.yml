@@ -1,5 +1,7 @@
 name: Kevin Chan
 
+exclude: [Rakefile]
+
 permalink: /:categories/:title
 
 markdown: kramdown
