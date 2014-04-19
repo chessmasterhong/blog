@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{% strip %}<!DOCTYPE html>
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
@@ -7,8 +7,10 @@
         <title>{{ page.title }} - {{ site.name }}</title>
 
         <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Lato:300,300italic,700,700italic'>
-        <link rel="stylesheet" type='text/css' href="/css/style.css">
+
         <link rel="stylesheet" type='text/css' href="/css/font-awesome.min.css">
+
+        <link rel="stylesheet" type='text/css' href="/css/style.css">
 
         {% for css_extras in page.css_extras %}
         <link rel="stylesheet" type='text/css' href="{{ css_extras }}">
@@ -56,13 +58,11 @@
                     <a href=""><i class="fa fa-linkedin-square" target="_blank"></i> LinkedIn</a>
                 </p>
                 <small>
-                    Copyright &copy; 2014 Kevin Chan
-                </small>
-                <small>
-                    Created with <a href="http://jekyllrb.com" target="_blank">Jekyll</a>.
-                    Original theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a>, with modifications.
+                    Copyright &copy; 2014 Kevin Chan.<br>
+                    All Rights Reserved.<br>
+                    <a href="/credits">Credits</a>
                 </small>
             </footer>
         </div>
     </body>
-</html>
+</html>{% endstrip %}
