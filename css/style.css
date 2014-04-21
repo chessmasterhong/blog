@@ -281,6 +281,11 @@ nav li a.active:hover {
 
 /* Post Content */
 
+.wrapper img {
+    max-height: 434px;
+    max-width: 100%;
+}
+
 .post-title {
     margin-bottom: 0;
 }

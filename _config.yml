@@ -1,6 +1,7 @@
 name: Kevin Chan
 
-exclude: [Rakefile]
+exclude:
+    - "/Rakefile"
 
 permalink: /:categories/:title
 
@@ -8,13 +9,13 @@ markdown: kramdown
 pygments: true
 
 navigation:
-- text: "Home"
-  url: "/"
-- text: "Projects"
-  url: "/projects"
-- text: "Resources"
-  url: "/resources"
-- text: "Contact"
-  url: "/contact"
+    - text: "Home"
+      url: "/"
+    - text: "Projects"
+      url: "/projects"
+    - text: "Resources"
+      url: "/resources"
+    - text: "Contact"
+      url: "/contact"
 
 
