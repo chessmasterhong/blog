@@ -6,7 +6,6 @@ exclude:
 permalink: /:categories/:title
 
 markdown: kramdown
-pygments: true
 
 navigation:
     - text: "Home"

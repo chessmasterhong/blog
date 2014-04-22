@@ -26,15 +26,23 @@ css_extras:
             <div class="proj_desc">
                 {{ project.excerpt }}
                 <p>
-                {% if project.url_details != '' %}
-                    <a href="{{ project.url }}">Read more</a>
-                {% endif %}
-                {% if project.url_demo != '' %}
-                    <a href="{{ project.url_demo }}" target="_blank">Live Demo</a>
-                {% endif %}
-                {% if project.url_source != '' %}
-                    <a href="{{ project.url_source }}" target="_blank">View Source</a>
-                {% endif %}
+                    {% if project.url_details != '' %}
+                    <a href="{{ project.url }}">
+                        <i class="fa fa-info-circle"></i> Read more
+                    </a>
+                    {% endif %}
+                    {% if project.url_demo != '' %}
+                    {% if project.url_details != '' %}|{% endif %}
+                    <a href="{{ project.url_demo }}" target="_blank">
+                        <i class="fa fa-cogs"></i> Live Demo
+                    </a>
+                    {% endif %}
+                    {% if project.url_source != '' %}
+                    {% if project.url_details != '' or project.url_demo != '' %}|{% endif %}
+                    <a href="{{ project.url_source }}" target="_blank">
+                        <i class="fa fa-code"></i> View Source
+                    </a>
+                    {% endif %}
                 </p>
             </div>
         </div>
