@@ -14,7 +14,7 @@ slides:
 ---
 
 
-Fire Emblem: Chronicles of the Abyss is a web-based remake of Fire Emblem: Blazing Sword, a turn-based strategy role playing game for the Game Boy Advance, but with a different main character and plot twist. The game was built solely for educational purposes under the City College of New York's chapter of the Association for Computing Machinery's Game Development Student Interest Group. The game was developed in JavaScript utilizing the HTML5 canvas using the <a href="http://impactjs.com" target="_blank">ImpactJS game engine</a>. The main goals of this project are to recreate a game that we enjoyed playing, to create a fully completed, quality game, and to give back to the ImpactJS community by open-sourcing the code so as to assist other developers on how to create similar features in their own game. Furthermore, we wanted to see what ImpactJS was truly capable of and to push the limits of the game engine beyond what we had initially thought was possible.
+Fire Emblem: Chronicles of the Abyss is a web-based remake of Fire Emblem: Blazing Sword, a turn-based strategy role playing game for the Game Boy Advance, but with a different main character and plot twist. The game was built solely for educational purposes under the City College of New York's chapter of the Association for Computing Machinery's Game Development Student Interest Group. The game was developed in JavaScript utilizing the HTML5 canvas using the [ImpactJS game engine](http://impactjs.com). The main goals of this project are to recreate a game that we enjoyed playing, to create a fully completed, quality game, and to give back to the ImpactJS community by open-sourcing the code so as to assist other developers on how to create similar features in their own game. Furthermore, we wanted to see what ImpactJS was truly capable of and to push the limits of the game engine beyond what we had initially thought was possible.
 
 
 Background Information
@@ -26,7 +26,7 @@ From then until early February, I continued working on the battle system to the 
 
 Features
 ---
-In order to ensure the game completes as planned, careful organization and distribution of tasks were essential. It was not long after the project began did we realize that we had a rapidly growing list of tasks completed and tasks to be assigned. We also found we were having difficulty keeping track of prerequisite tasks that needed to be completed before we could move on to the next set of tasks. As a result, we created a <a href="http://github.com/chessmasterhong/WaterEmblem/blob/master/notes/roadmap.txt" target="_blank">general roadmap</a>, <a href="http://github.com/chessmasterhong/WaterEmblem/blob/master/notes/task_tree.txt" target="_blank">task dependency tree</a>, and <a href="http://github.com/chessmasterhong/WaterEmblem/blob/master/notes/records.txt" target="_blank">records</a> to keep track and visualize our current development progress. On several occasions, multiple tasks may be required in order to fully complete a feature.
+In order to ensure the game completes as planned, careful organization and distribution of tasks were essential. It was not long after the project began did we realize that we had a rapidly growing list of tasks completed and tasks to be assigned. We also found we were having difficulty keeping track of prerequisite tasks that needed to be completed before we could move on to the next set of tasks. As a result, we created a [general roadmap](http://github.com/chessmasterhong/WaterEmblem/blob/master/notes/roadmap.txt), [task dependency tree](http://github.com/chessmasterhong/WaterEmblem/blob/master/notes/task_tree.txt), and [records](http://github.com/chessmasterhong/WaterEmblem/blob/master/notes/records.txt) to keep track and visualize our current development progress. On several occasions, multiple tasks may be required in order to fully complete a feature.
 
 Below outlines the major features we have implemented thus far:
 
@@ -79,7 +79,7 @@ Below outlines the major features we have implemented thus far:
 Development
 ---
 It was quickly apparent that development was advancing at a lightning pace. We were adding new functionalities to the game almost every day or two. We would have near daily discussions regarding the features completed, any problems impeding our task, and how to tackle the next task. Whenever we have difficulties trying to solve a problem, we would brainstorm amongst each other on ideas that may be feasible. Sometimes, we would hold peer-coding sessions and receive live feedback on our code. In short, I felt this was
-<a href="http://en.wikipedia.org/wiki/Agile_software_development" target="_blank">agile software development</a> at it's best.
+[agile software development](http://en.wikipedia.org/wiki/Agile_software_development) at it's best.
 
 For the first four weeks since our team started, we finished about 98% of our task list which consisted of over 90 tasks. An additional week was spend on testing and bug fixing. After five weeks of development, near the end of March, we presented a fully playable, working demonstration of the game to our fellow peers, students, and faculties at the CCNY ACM Student/Faculty Mixer.
 
@@ -109,14 +109,14 @@ In addition to monitoring the codebase, I was responsible for performing many of
 
 Lastly, I actively participate in development. Along with the core battle system, I am also responsible for implementing several major features including, but not limited to:
 
-* <a href="http://github.com/chessmasterhong/WaterEmblem/commit/58059c2cdb2385c612b49766d6f474a27eec340c" target="_blank">Battle animations queue and sequence</a>
-* System for handling close/long-range, <a href="http://github.com/chessmasterhong/WaterEmblem/commit/9d413acb91127663720b9a0cd8ea0157cf4f9374" target="_blank">magical, hit/miss, normal, counter, critical, and second attacks</a>
-* <a href="http://github.com/chessmasterhong/WaterEmblem/commits/356453621331844bc4dc2a9079dbf3f09d1fdf6f/lib/game/entities/misc/pointer.js" target="_blank">Mouse "point-and-click" for unit movement and menu interaction</a>
-* <a href="http://github.com/chessmasterhong/WaterEmblem/commit/596690eac4f2f4ec86c8038193cda7939440cb9c" target="_blank">Enemy artificial intelligence</a>
-* <a href="http://github.com/chessmasterhong/WaterEmblem/commit/e0f81a3e9fb9b5795b1adb5e51ee31e7ee42fa8c" target="_blank">Non-collision nearby unit detection</a>
-* <a href="http://github.com/chessmasterhong/WaterEmblem/commit/4e44eb76479941b14daf16feda1884cc427b5505" target="_blank">Multiple controllable player units</a>
-* Hooking A* pathfinding to <a href="http://github.com/chessmasterhong/WaterEmblem/commit/2b5fa18babaf79493736ba7b33887e92c0d58b6f" target="_blank">players</a> and <a href="http://github.com/chessmasterhong/WaterEmblem/commit/39ed6d74b9d6becfc7f64549c36f959f42d35f4e" target="_blank">enemies</a>
-* <a href="http://github.com/chessmasterhong/WaterEmblem/commit/4f32b84b0c2acf01bd3acbe7c95c23d149c32a57" target="_blank">Trade system</a>
-* <a href="http://github.com/chessmasterhong/WaterEmblem/commit/8cae76018a4a272b276f801fd8c74f799e350652" target="_blank">Terrain system</a>
+* [Battle animations queue and sequence](http://github.com/chessmasterhong/WaterEmblem/commit/58059c2cdb2385c612b49766d6f474a27eec340c)
+* System for handling close/long-range, [magical, hit/miss, normal, counter, critical, and second attacks](http://github.com/chessmasterhong/WaterEmblem/commit/9d413acb91127663720b9a0cd8ea0157cf4f9374)
+* [Mouse "point-and-click" for unit movement and menu interaction](http://github.com/chessmasterhong/WaterEmblem/commits/356453621331844bc4dc2a9079dbf3f09d1fdf6f/lib/game/entities/misc/pointer.js)
+* [Enemy artificial intelligence](http://github.com/chessmasterhong/WaterEmblem/commit/596690eac4f2f4ec86c8038193cda7939440cb9c)
+* [Non-collision nearby unit detection](http://github.com/chessmasterhong/WaterEmblem/commit/e0f81a3e9fb9b5795b1adb5e51ee31e7ee42fa8c)
+* [Multiple controllable player units](http://github.com/chessmasterhong/WaterEmblem/commit/4e44eb76479941b14daf16feda1884cc427b5505)
+* Hooking A* pathfinding to [players](http://github.com/chessmasterhong/WaterEmblem/commit/2b5fa18babaf79493736ba7b33887e92c0d58b6f) and [enemies](http://github.com/chessmasterhong/WaterEmblem/commit/39ed6d74b9d6becfc7f64549c36f959f42d35f4e)
+* [Trade system](http://github.com/chessmasterhong/WaterEmblem/commit/4f32b84b0c2acf01bd3acbe7c95c23d149c32a57)
+* [Terrain system](http://github.com/chessmasterhong/WaterEmblem/commit/8cae76018a4a272b276f801fd8c74f799e350652)
 
 This project has challenged me every step of the way. Nothing was trivial; every task and every feature required careful planning and implementation. Before writing each step of the code, I had to ensure that the code was efficient computation-wise, memory-wise, modular so that we may easily build and scale upon existing functionalities, as well as understandable for my team members.
