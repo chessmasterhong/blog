@@ -1,5 +1,5 @@
 ---
-font_color0: "#333333"
+font_color0: "#222222"
 border_color0: "#dddddd"
 ---
 
@@ -32,7 +32,7 @@ body {
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {
-    color: #222222;
+    color: {{ page.font_color0 }};
     margin: 0 0 20px;
 }
 
@@ -68,7 +68,7 @@ p, ul, ol, table, pre, dl {
 }
 
 strong {
-    color: #222222;
+    color: {{ page.font_color0 }};
     font-weight: 700;
 }
 
@@ -352,6 +352,14 @@ a.post-banner:hover {
 
 .post-excerpt {
     margin-bottom: 2em;
+}
+
+/**
+ *  Nested lists and blank lines bug fix
+ *  http://six.pairlist.net/pipermail/markdown-discuss/2007-October/000869.html
+ */
+ul ul, ol ol, ol ul, ul ol {
+    margin-bottom: 0;
 }
 
 
