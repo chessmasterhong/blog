@@ -8,11 +8,12 @@ url_source: ""
 thumbnail_style: "background: url(/img/pt0.png) no-repeat -5px -20px content-box; background-size: 190%;"
 slides:
     - image: "/img/pt0.png"
-      caption: "hello1"
+      caption: ""
     - image: "/img/pt1.png"
-      caption: "hello2"
+      caption: ""
     - image: "/img/pt2.png"
-      caption: "hello3"
+      caption: ""
 ---
 
-Maecenas vestibulum rhoncus hendrerit. Morbi venenatis magna scelerisque turpis hendrerit, quis adipiscing odio interdum. Nam non arcu eu ante blandit porta eget quis quam. In luctus diam in justo pretium, non convallis sem malesuada. Duis nisi lorem, bibendum non ipsum ac, feugiat venenatis libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque est mi, condimentum et enim at, porttitor porttitor nibh. Mauris semper luctus urna, et imperdiet dui consectetur et. Curabitur adipiscing vulputate magna a congue. Cras at mauris dignissim, gravida justo quis, ornare quam. Donec sit amet tristique mi. Nulla egestas pellentesque mi non porta. Sed nec venenatis elit. Morbi consequat auctor augue, id aliquam nulla lacinia eget.
+
+ParallelText is a web application built using Python on top of the Django web framework. This application enables users to read a text in two different languages in parallel. This allows users to compare a translation with an original version of a text. The idea of parallel editions of a text has a long history in publishing. Our goal was to create a web-based tool to easily create parallel texts. In essence, our project was an extension and generalization of [this project](http://www.waste.org/~roadrunner/Hegel/PhenSpirit) previously attempted by one of our project members.

@@ -8,26 +8,11 @@ url_source: ""
 thumbnail_style: "background: url(/img/mf0.png) no-repeat -10px -5px content-box; background-size: 220%;"
 slides:
     - image: "/img/mf0.png"
-      caption: "hello1"
+      caption: ""
 ---
 
 
 MathFlash is a web-based system designed to address existing problems regarding how mathematical content is displayed on the Internet. It attempts to remedy some of these problems by use of various methods to improve how content is presented and how to get the necessary information across to the user and retaining their learned material more effectively. This project was both an extension of my long-awaited personal desire to create such a system as well as my one-year undergraduate Computer Science capstone project at the City College of New York. The research topics incorporated into this project include adaptive response time-based sequencing and perceptual learning. MathFlash was built using PHP, Python (and a Python library), MySQL, and JavaScript (along with two JavaScript libraries), as well as utilizing HTML5 and CSS3 technologies.
-
-
-Background Information
----
-WRITEME
-
-
-Features
----
-WRITEME
-
-
-Development
----
-WRITEME
 
 
 My Roles, Experiences, and Challenges

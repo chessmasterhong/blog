@@ -36,11 +36,6 @@ The major time-saving feature of this tool is the ability to parse all of the pr
 * Create basic enemies using skeleton/template code
 
 
-Development
----
-WRITEME
-
-
 My Roles, Experiences, and Challenges
 ---
-Wrote custom JavaScript/ImpactJS code parser. Learned regular expression in a day.
+I wrote a custom JavaScript/ImpactJS code parser from scratch.

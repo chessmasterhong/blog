@@ -8,26 +8,11 @@ url_source: ""
 thumbnail_style: "background: url(/img/smw0.png) no-repeat -45px -45px content-box; background-size: 200%;"
 slides:
     - image: "/img/smw0.png"
-      caption: "hello1"
+      caption: "Title screen."
 ---
 
 
 Super Mario World: Koopa Krisis is a remake of the original Super Mario World platformer for the Super Nintendo Entertainment System. The game was built using JavaScript on top of the [ImpactJS game engine](http://impactjs.com). The project was developed under the City College of New York's chapter of the Association for Computing Machinery's Game Development Student Interest Group for educational purposes only. The goals for this project were to create a web browser version of one of the Nintendo's most popular games, to understand how to use ImpactJS, and to learn JavaScript.
-
-
-Background Information
----
-WRITEME
-
-
-Features
----
-WRITEME
-
-
-Development
----
-WRITEME
 
 
 My Roles, Experiences, and Challenges

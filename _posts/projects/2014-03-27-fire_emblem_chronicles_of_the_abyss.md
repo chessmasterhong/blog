@@ -8,9 +8,9 @@ url_source: ""
 thumbnail_style: "background: url(/img/fe1.png) -125px -20px no-repeat content-box; background-size: 200%;"
 slides:
     - image: "/img/fe1.png"
-      caption: "hello1"
+      caption: "Battle animations between a player unit and enemy unit."
     - image: "/img/fe2.png"
-      caption: "hello2"
+      caption: "Player unit preparing to attack an enemy unit."
 ---
 
 
