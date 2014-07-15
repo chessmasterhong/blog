@@ -14,6 +14,8 @@ navigation:
       url: "/projects"
     - text: "Resources"
       url: "/resources"
+    - text: "About"
+      url: "/about"
     - text: "Contact"
       url: "/contact"
 
