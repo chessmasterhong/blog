@@ -2,62 +2,13 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>{{ page.title }} - {{ site.name }}</title>
-
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,300italic,700,700italic">
-
-        <link rel="stylesheet" href="/css/font-awesome.min.css">
-
-        <link rel="stylesheet" href="/css/style.css">
-
-        {% for css_extras in page.css_extras %}
-        <link rel="stylesheet" href="{{ css_extras }}">
-        {% endfor %}
-
-        <!-- <link rel="stylesheet" href="/css/pygment_trac.css"> -->
-        <!-- <link rel="stylesheet" href="/css/syntax.css"> -->
-
-        {% for js_extras in page.js_extras %}
-        <script src="{{ js_extras }}"></script>
-        {% endfor %}
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Kevin Chan | chessmasterhong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:700,700italic,400,400italic,300,300italic">
+        <link rel="stylesheet" type="text/css" href="_styles/site.css">
     </head>
 
     <body>
-        <div class="wrapper">
-            <header>
-                <h1><a href="/">{{ site.name }}</a></h1>
-                <nav>
-                    <ul>
-                        {% assign curr_url = page.url | split: '/' %}
-                        {% for nav in site.navigation %}
-                        {% if nav.url == '/' and curr_url[1] == 'index.html' %}
-                        <li><a class="active" href="/">{{ nav.text }}</a></li>
-                        {% else %}
-                        {% assign nav_url = nav.url | split: '/' %}
-                        {% if nav_url[1] == curr_url[1] %}
-                        <li><a class="active" href="{{ nav.url }}">{{ nav.text }}</a></li>
-                        {% else %}
-                        <li><a href="{{ nav.url }}">{{ nav.text }}</a></li>
-                        {% endif %}
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-                </nav>
-            </header>
-
-            <section>
-                {{ content }}
-            </section>
-
-            <footer>
-                <small>
-                    Website created by <a href="//github.com/chessmasterhong">Kevin Chan</a>.<br>
-                    <a href="/credits">Credits</a>
-                </small>
-            </footer>
-        </div>
     </body>
 </html>

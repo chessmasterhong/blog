@@ -1,22 +1,3 @@
-name: Lorem Ipsum
-
-exclude:
-    - "/Rakefile"
-
 permalink: /:categories/:title
 
 markdown: kramdown
-
-navigation:
-    - text: "Home"
-      url: "/"
-    - text: "Projects"
-      url: "/projects"
-    - text: "Resources"
-      url: "/resources"
-    - text: "About"
-      url: "/about"
-    - text: "Contact"
-      url: "/contact"
-
-

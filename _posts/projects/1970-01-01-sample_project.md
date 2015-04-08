@@ -1,14 +1,8 @@
 ---
-layout: project_details
+layout: default
 categories:
     - "projects"
 title: "Sample Project"
-url_demo: "http://example.com/"
-url_source: "http://example.com/"
-thumbnail_style: ""
-slides:
-    - image: ""
-      caption: ""
 ---
 
 
